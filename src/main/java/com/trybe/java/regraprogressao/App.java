@@ -22,6 +22,8 @@ public class App {
       String nomeAtv = scanner.nextLine();
       System.out.println("Digite o peso da atividade " + (i + 1) + ": ");
       int pesoAtv = Integer.parseInt(scanner.nextLine());
+      System.out.println("Digite a nota obtida para " + nomeAtv + ": ");
+      int notaAtv = Integer.parseInt(scanner.nextLine());
     }
 
     scanner.close();
