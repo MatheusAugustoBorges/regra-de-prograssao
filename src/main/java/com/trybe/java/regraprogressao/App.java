@@ -1,7 +1,7 @@
 package com.trybe.java.regraprogressao;
 
 /**
- * 'App' - Projeto - Regra de Progressão
+ * 'App' - Projeto - Regra de Progressão.
  */
 public class App {
 
