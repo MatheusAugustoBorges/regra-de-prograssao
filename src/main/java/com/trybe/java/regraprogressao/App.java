@@ -1,5 +1,6 @@
 package com.trybe.java.regraprogressao;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -29,10 +30,7 @@ public class App {
       int notaAtv = Integer.parseInt(scanner.nextLine());
     }
 
-    int soma = 0;
-    for (int valor : pesos) {
-      soma += valor;
-    }
+    int soma = Arrays.stream(pesos).sum();
 
     if (soma != 100) {
       System.out.println("A soma dos pesos é diferente de 100!");
